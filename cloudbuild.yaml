@@ -15,6 +15,9 @@ steps:
   - 'asia-south2-docker.pkg.dev/PROJET1/pyapprepo-artifact/pyappimage:latest'
   - '--region'
   - 'asia-south2'
-  - '--allow-unauthenticated'  
+  - '--allow-unauthenticated' 
+  
+  options:
+  logging: CLOUD_LOGGING_ONLY
   
   
