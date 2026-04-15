@@ -17,7 +17,7 @@ steps:
   - 'asia-south2'
   - '--allow-unauthenticated' 
   
-  options:
+ options:
   logging: CLOUD_LOGGING_ONLY
   
   
